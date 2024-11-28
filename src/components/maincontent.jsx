@@ -11,11 +11,11 @@ const MainContent = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between min-h-screen px-6 md:px-32 bg-white">
       {/* Sección de texto */}
-      <div className="max-w-3xl p-4 md:p-12">
-        <h1 className="text-[2.5rem] md:text-[3.5rem] font-bold text-black leading-tight mb-4 text-wrap">
+      <div className="max-w-3xl p-4 md:p-8"> {/* Reducido p-12 a p-8 */}
+        <h1 className="text-[2.5rem] md:text-[3.5rem] font-bold text-black leading-tight mb-2 md:mb-4 text-wrap"> {/* Reducido mb-4 a mb-2 */}
           Gestiona tus citas médicas de manera rápida y sencilla
         </h1>
-        <p className="text-gray-600 text-sm md:text-lg mb-6 text-wrap">
+        <p className="text-gray-600 text-sm md:text-lg mb-4 text-wrap"> {/* Reducido mb-6 a mb-4 */}
           Disponibilidad citas médicas con proceso de reserva y seguimiento donde
           podrán buscar y reservar su cita ideal.
         </p>
@@ -28,7 +28,7 @@ const MainContent = () => {
       </div>
 
       {/* Sección de imagen */}
-      <div className="mt-8 md:mt-0">
+      <div className="mt-4 md:mt-0"> {/* Reducido mt-8 a mt-4 */}
         <img
           src="https://dormakaba.rokka.io/prod-detail-square/40c33d/1505728367_FSW_ES_shoppingmall_CMYK%201528.jpg"
           alt="Centro Médico"
